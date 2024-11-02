@@ -11,28 +11,39 @@ body {
 	font-family: 'Sanchez', serif;
 }
 
-h1, h2, h3 {
-	font-family: 'Rakkas', cursive;
-}
-
 aside {
-	
+	width: 250px; /* Fixed width for aside */
+    padding: 10px;
+    font-family: 'Sanchez', serif;
 }
 
 footer {
 
+	text-align: left;
+    color: black;
+    font-family: 'Sanchez', serif;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
 
 header {
-
+	position: relative;
+    top: 0;
+    left: 0;
+    color: black;
+    font-family: 'Rakkas', cursive; /* Rakkas font for header */
 }
+
 
 img {
 	max-width: 75%;
 }
 
 main {
-
+	flex: 1; /* Take up remaining space */
+    margin-right: 20px; /* Space between main and aside */
+    font-family: 'Sanchez', serif;
 }
 
 nav {
@@ -44,5 +55,6 @@ nav {
 }
 
 #main-container {
-
+    display: flex;
+    margin: 20px;
 }
